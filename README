@@ -1,0 +1,19 @@
+== GitVersion
+
+Simple rails engine gem that provides a quick and easy way to check which commit version your server is running.
+
+It essentially just serves up the last line of your .git/logs/HEAD when you point to #{ROOT_URL}/git_version
+
+== Installing
+
+Add the following line to your Gemfile:
+
+    gem 'git_version'
+
+Then run the command:
+
+    bundle install
+
+Add the following line to your routes.rb file:
+
+    mount GitVersion::Engine => "/git_version"
