@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email       = ["gary.haran@gmail.com"]
   s.homepage    = ""
   s.summary     = %q{Rails engine that shows the git commit version number installed in ROOT_URL/git_version}
-  s.description = %q{Simple rails engine to show the git commit version number installed}
+  s.description = %q{Simple rails engine to show the git commit version number installed by pointing your browser to ROOT_URL/git_version}
 
   s.rubyforge_project = "git_version"
 
