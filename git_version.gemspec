@@ -18,6 +18,11 @@ Gem::Specification.new do |s|
     'Gemfile', 
     'app/controllers/git_version/application_controller.rb',
     'app/controllers/git_version/versions_controller.rb',
+    'config/routes.rb',
+    'config.ru',
+    'lib/git_version/engine.rb',
+    'lib/git_version/version.rb',
+    'lib/git_version.rb',
   ]
   s.require_paths = ["lib"]
 
